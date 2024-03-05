@@ -1,25 +1,35 @@
+.body {
+    background-color: #111;
+}
+
 .carousel-control-next {
     filter: invert(60%);
-  }
-  .carousel-control-prev {
+}
+.carousel-control-prev {
     filter: invert(60%);
-  }
-  .unselectable {
-      -webkit-touch-callout: none; /* iOS Safari */
-      -webkit-user-select: none; /* Safari */
-      -khtml-user-select: none; /* Konqueror HTML */
-      -moz-user-select: none; /* Firefox */
-      -ms-user-select: none; /* Internet Explorer/Edge */
-      user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
-  }
-  .modal-dialog {
-    max-width: 100%; 
-  }
-  .btn-outline-warning {
-      color: #eac060;
-      border-color: #eac060;
-  }
-  .btn-outline-warning:hover {
-      color: #112529;
-      background-color: #eac060;
-  }
+}
+.unselectable {
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently supported by Chrome and Opera */
+}
+.modal-dialog {
+    max-width: 100%;
+}
+.btn-outline-warning {
+    color: #eac060;
+    border-color: #eac060;
+}
+.btn-outline-warning:hover {
+    color: #112529;
+    background-color: #eac060;
+}
