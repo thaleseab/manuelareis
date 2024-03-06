@@ -2,12 +2,7 @@ body {
     background-color: #111;
 }
 
-.carousel-control-next {
-    filter: invert(60%);
-}
-.carousel-control-prev {
-    filter: invert(60%);
-}
+
 .unselectable {
     -webkit-touch-callout: none;
     /* iOS Safari */
@@ -22,14 +17,40 @@ body {
     user-select: none;
     /* Non-prefixed version, currently supported by Chrome and Opera */
 }
+
+.carousel-control-next {
+    filter: invert(60%);
+}
+
+.carousel-control-prev {
+    filter: invert(60%);
+}
+
+.accordion-item {
+    background-color: #dfdfdf;
+    border: none;
+    border-radius: 2px;
+}
+
 .modal-dialog {
     max-width: 100%;
 }
+
 .btn-outline-warning {
     color: #eac060;
     border-color: #eac060;
 }
+
+.text-warning{
+    color: #eac060;
+}
+
 .btn-outline-warning:hover {
     color: #112529;
     background-color: #eac060;
+}
+
+.thumbnail-shadow {
+    /* box-shadow: rgba(255, 255, 255, 0.2) 1px 4px 15px; */
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 30px 60px -12px, rgba(255, 255, 255, 0.3) 0px 18px 36px -18px;
 }
