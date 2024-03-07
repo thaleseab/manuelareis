@@ -37,6 +37,12 @@ body {
 .accordion-item img{
     margin-bottom: 3rem;
 }
+.accordion-item video{
+    margin-bottom: 3rem;
+}
+.accordion-item iframe{
+    margin-bottom: 3rem;
+}
 
 .modal-dialog {
     max-width: 100%;
@@ -63,3 +69,6 @@ body {
 .thumbnail-no-shadow {
     filter: drop-shadow(0 0 0 rgba(0, 0, 0, 0));
 }
+
+
+
