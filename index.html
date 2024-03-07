@@ -20,13 +20,13 @@
     <!-- PAGE TOP -->
     <div>
       <div class="row fixed-top bg-dark text-white mg-1 mg-md-1 px-3 px-md-4 py-p2 py-md-3">
-        <div class="d-flex col-5 col-md-4 mg-1 p-1 mg-md-1 p-md-1">
+        <div class="d-flex col-6 col-md-4 mg-1 p-1 mg-md-1 p-md-1">
           <img class="img-fluid" src="img\ManuelaReisLogo.svg" alt="manuelareis.com">
         </div>
-        <div class="d-flex col-7 col-md-8 mg-1 p-1 mg-md-1 p-md-1 justify-content-end">
+        <div class="d-flex col-6 col-md-8 mg-1 p-1 mg-md-1 p-md-1 justify-content-end">
             <button class="btn btn-outline-warning text-capitalize fs-4 mg-0 p-0 mg-md-1 p-md-1" type="button" data-toggle="modal" data-target="#modal_demoreel" data-placement="left" title="Watch a demo reel">
                 <div class="d-flex flex-row px-2">
-                    <i class="bi bi-play-circle-fill px-2"></i>
+                    <i class="bi bi-play-circle-fill px-2" style="color: #ffc107;"></i>
                     <div class="d-none d-md-block px-2">demo reel</div>
                 </div>
             </button>
@@ -42,7 +42,7 @@
               <h5 class="modal-title">
                 <div class="btn-outline-warning">
                   <i class="bi bi-play-circle"></i>
-                  Demoreel
+                  demo reel
                 </div>
               </h5>
               <div class="d-flex flex-grow-1 justify-content-end">
@@ -65,57 +65,38 @@
         </div>
       </div>
 
-      <div class="row col-12 col-md-12 my-2 py-2 my-md-4 py-md-4"></div>
+      <div class="row col-12 col-md-12 my-2 py-4 my-md-4 py-md-4"></div>
       
     </div>
     <!-- PAGE TOP -->
 
 
-    <div class="col mx-3 mx-md-2 my-md-2 px-0 my-2 px-md-2">
-      <p class="fs-2 fs-md-1 font-weight-bolder" style="color: #ccc;">Portifolio</p>
+    <div class="d-flex justify-content-center">
     
         <p>
-          <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
-            <input type="checkbox" class="btn-check btn-outline-warning" id="btncheck1" autocomplete="off" data-toggle="collapse" data-target="#multiCollapseExample1" checked>
-            <label class="btn btn-outline-warning" for="btncheck1">#Character</label>
+            <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
+            <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off" data-toggle="collapse" data-target=".character" checked>
+            <label class="btn" style="color: #ddd; border: none; background: linear-gradient(0deg, #ffc107 0%, #ffffff00 5%, #ffffff00 95%, #ffc107 100%);" for="btncheck1"># Character</label>
           
-            <input type="checkbox" class="btn-check btn-outline-warning" id="btncheck2" autocomplete="off" data-toggle="collapse" data-target="#multiCollapseExample2">
-            <label class="btn btn-outline-warning" for="btncheck2">#Props</label>
+            <input type="checkbox" class="btn-check" id="btncheck2" autocomplete="off" data-toggle="collapse" data-target=".prop">
+            <label class="btn" style="color: #ddd; border: none; background: linear-gradient(0deg, #ffc107 0%, #ffffff00 5%, #ffffff00 95%, #ffc107 100%);" for="btncheck2"># Props</label>
           
-            <input type="checkbox" class="btn-check btn-outline-warning" id="btncheck3" autocomplete="off" data-toggle="collapse" data-target="#multiCollapseExample3">
-            <label class="btn btn-outline-warning" for="btncheck3">#Clothes</label>
+            <input type="checkbox" class="btn-check" id="btncheck3" autocomplete="off" data-toggle="collapse" data-target=".cloth">
+            <label class="btn" style="color: #ddd; border: none; background: linear-gradient(0deg, #ffc107 0%, #ffffff00 5%, #ffffff00 95%, #ffc107 100%);" for="btncheck3"># Clothes</label>
           </div>
         </p>
-        
-        
-        <div class="row">
-            <div class="multi-collapse" id="multiCollapseExample1">
-              <div class="card card-body">
-                Show characters by default
-              </div>
-            </div>
-            <div class="collapse multi-collapse" id="multiCollapseExample2">
-              <div class="card card-body">
-                Show Props.
-              </div>
-            </div>
-            <div class="collapse multi-collapse" id="multiCollapseExample3">
-              <div class="card card-body">
-                Show Clothes.
-              </div>
-            </div>
-        </div>
-    
+           
     </div>
   
 
+ 
 
       
     <div class="row mg-0 p-0 mx-md-5 px-md-5">
 
 
       <!-- Ginger elf  -->
-      <div class="col col-md-4 col-12 mx-0 px-0 px-md-2 my-4 my-md-5"> 
+      <div class="col col-md-4 col-12 mx-0 px-0 px-md-2 my-4 my-md-5 collapse multi-collapse character show"> 
 
         <div id="proj-001">
 
@@ -125,10 +106,10 @@
             <a class="carousel-control-next" href="#carousel_001" role="button" data-slide="next"><span class="carousel-control-next-icon"></span></a>
           </div>
          
-          <div class="d-flex mg-0 mg-md-0 px-3 py-2 px-md-4 py-md-2 justify-content-center align-items-center bg-dark">
-            <button class="btn text-capitalize mg-0 p-0 col-12" type="button"  data-toggle="collapse" data-target="#collapse-001" data-placement="left" title="Ginger elf">
-                <div class="d-flex flex-row justify-content-between align-items-center w-100" style="color: #ccc;">
-                    <div class="flex-grow-1 fs-5 text-start">Ginger elf</div>
+          <div class="d-flex mg-0 mg-md-0 px-3 py-2 px-md-4 py-md-2 justify-content-center align-items-center bg-dark thumbnail-no-shadow">
+            <button class="btn text-capitalize mg-0 p-0 col-12 " type="button" data-toggle="collapse" data-target="#collapse-001" data-placement="left" title="Ginger elf">
+              <div class="d-flex flex-row justify-content-between align-items-center w-100" style="color: #ccc;">
+                <div class="flex-grow-1 fs-5 text-start">Ginger elf</div>
                     <i class="bi bi-plus-circle text-warning fs-4"></i>
                 </div>
             </button>
@@ -154,7 +135,7 @@
 
 
       <!-- Horror Angel  -->
-      <div class="col col-md-4 col-12 mx-0 px-0 px-md-2 my-4 my-md-5"> 
+      <div class="col col-md-4 col-12 mx-0 px-0 px-md-2 my-4 my-md-5 collapse multi-collapse character show"> 
 
         <div id="proj-002">
 
@@ -164,7 +145,7 @@
             <a class="carousel-control-next" href="#carousel_002" role="button" data-slide="next"><span class="carousel-control-next-icon"></span></a>
           </div>
           
-          <div class="d-flex mg-0 mg-md-0 px-3 py-2 px-md-4 py-md-2 justify-content-center align-items-center bg-dark">
+          <div class="d-flex mg-0 mg-md-0 px-3 py-2 px-md-4 py-md-2 justify-content-center align-items-center bg-dark thumbnail-no-shadow">
             <button class="btn text-capitalize mg-0 p-0 col-12" type="button"  data-toggle="collapse" data-target="#collapse-002" data-placement="left" title="Horror Angel">
                 <div class="d-flex flex-row justify-content-between align-items-center w-100" style="color: #ccc;">
                     <div class="flex-grow-1 fs-5 text-start">Horror Angel</div>
@@ -194,7 +175,7 @@
 
 
       <!-- Cindy the centaur  -->
-      <div class="col col-md-4 col-12 mx-0 px-0 px-md-2 my-4 my-md-5"> 
+      <div class="col col-md-4 col-12 mx-0 px-0 px-md-2 my-4 my-md-5 collapse multi-collapse prop"> 
 
         <div id="proj-003">
 
@@ -204,7 +185,7 @@
             <a class="carousel-control-next" href="#carousel_003" role="button" data-slide="next"><span class="carousel-control-next-icon"></span></a>
           </div>
           
-          <div class="d-flex mg-0 mg-md-0 px-3 py-2 px-md-4 py-md-2 justify-content-center align-items-center bg-dark">
+          <div class="d-flex mg-0 mg-md-0 px-3 py-2 px-md-4 py-md-2 justify-content-center align-items-center bg-dark thumbnail-no-shadow">
             <button class="btn text-capitalize mg-0 p-0 col-12" type="button"  data-toggle="collapse" data-target="#collapse-003" data-placement="left" title="Cindy the centaur">
                 <div class="d-flex flex-row justify-content-between align-items-center w-100" style="color: #ccc;">
                     <div class="flex-grow-1 fs-5 text-start">Cindy the centaur</div>
@@ -582,8 +563,6 @@
 
       <div class="container mg-0 mg-md-0 p-2 p-md-5">
 
-        <h3>Ginger elf</h3>
-
                 <iframe
                     class="img-fluid"
                     title="Elane"
@@ -659,9 +638,7 @@
     <div id="CTT_proj-002-body">
 
       
-      <div class="container mg-0 mg-md-0 p-2 p-md-5">
-
-        <h3>Horror Angel</h3>
+      <div class="container mg-0 mg-md-0 p-2 p-md-5 ">
 
           <iframe 
           class="img-fluid"
@@ -709,8 +686,6 @@
     <div id="CTT_proj-003-body">
 
         <div class="container mg-0 mg-md-0 p-2 p-md-5">
-
-          <h3>Cindy the centaur</h3>
 
                 <video
                     class="img-fluid"
