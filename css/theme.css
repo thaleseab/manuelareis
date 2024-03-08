@@ -26,13 +26,16 @@ body {
     filter: invert(60%);
 }
 
-
-
 .accordion-item {
-    background-color: #dddddd;
+    background-color: #111;
     border: none;
     border-radius: 2px;
+    box-shadow: rgba(155, 155, 160, 0.25) 0px 50px 100px -20px inset, rgba(245, 244, 244, 0.3) 0px 30px 60px -30px, rgba(218, 217, 215, 0.35) 0px -2px 6px 0px inset;
+    /* box-shadow: rgba(255, 255, 255, 0.45) 1px 1px 40px 0px inset; */
+    /* box-shadow: rgb(200, 208, 231) 3.2px 3.2px 8px 0px inset, rgb(255, 255, 255) -3.2px -3.2px 8px 0px inset; */
 }
+
+
 
 .accordion-item img{
     margin-bottom: 3rem;
@@ -57,6 +60,10 @@ body {
     color: #eac060;
 }
 
+i{
+    color: #eac060;
+}
+
 .btn-outline-warning:hover {
     color: #112529;
     background-color: #eac060;
@@ -76,6 +83,7 @@ body {
   font-optical-sizing: auto;
   font-weight: 100;
   font-style: normal;
+  text-transform: uppercase;
 }
 
 .ojuju-font {
@@ -83,6 +91,7 @@ body {
     font-optical-sizing: auto;
     font-weight: 100;
     font-style: normal;
+    text-transform: uppercase;
   }
 
 
