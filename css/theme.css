@@ -78,4 +78,11 @@ body {
   font-style: normal;
 }
 
+.ojuju-font {
+    font-family: "Ojuju", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+  }
+
 
