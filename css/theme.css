@@ -95,3 +95,11 @@ i{
   }
 
 
+
+  .text-gray-600 {
+    color: #999;
+}
+
+.text-gray-600:hover {
+    color: #eac060;
+}
