@@ -4,6 +4,7 @@
     --link-color-default: #eac060 !important;
     --link-color-hover: #ebd6a6 !important;
     --link-color-active: #f5be3f !important;
+    --link-color-disabled: #404040dd;
     --menu-color-default: #999 !important;
     --title-font-color: #ccc !important;
     --title-icon-color:#eac160aa !important;
@@ -108,6 +109,10 @@ body {
     color: var(--link-color-active);
 }
 
+.theme-menu-item:disabled {
+    color: var(--link-color-disabled);
+}
+
 .theme-menu-bg{
     background-color: var(--bg-menu-color);
 }
@@ -158,6 +163,10 @@ body {
 .theme-bt-icon:active{
     color:  #ccc;
 }
+.theme-bt-icon:disabled{
+    color:  var(--link-color-disabled);
+}
+
 
 
 .theme-bt-icon-reverse{
@@ -168,6 +177,9 @@ body {
 }
 .theme-bt-icon-reverse:active{
     color:  var(--link-color-active);
+}
+.theme-bt-icon-reverse:disabled{
+    color:  var(--link-color-disabled);
 }
 
 .bi-chevron-bar-down {
