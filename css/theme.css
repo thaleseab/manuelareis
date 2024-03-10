@@ -205,3 +205,8 @@ body {
 .theme-toggle-bt:checked + .theme-toggle-bt {
     color: #fcb204b0;
 }
+
+.theme-modal-bg{
+    background-color: #00000033;
+    backdrop-filter: blur(10px);
+}
