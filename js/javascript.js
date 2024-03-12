@@ -28,13 +28,13 @@ function toggleIcon(button) {
 
   if(icon != null){
 
-    if ($(icon).hasClass('bi-chevron-bar-down')) {
-        icon.removeClass('bi-chevron-bar-down').addClass('bi-chevron-up');
+    if ($(icon).hasClass('bi-plus-circle')) {
+        icon.removeClass('bi-plus-circle').addClass('bi-chevron-up');
     } else {
-        icon.removeClass('bi-chevron-up').addClass('bi-chevron-bar-down');
+        icon.removeClass('bi-chevron-up').addClass('bi-plus-circle');
     }
 
-    $('.bi.bi-chevron-up').not(icon).removeClass('bi-chevron-up').addClass('bi-chevron-bar-down');
+    $('.bi.bi-chevron-up').not(icon).removeClass('bi-chevron-up').addClass('bi-plus-circle');
 
   }
 
